@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
               'You wanna see some pirates',
             ),
             Text(
-              'Click the button',
+              'Press the X',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
           ],
@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: _page2,
         tooltip: 'Move',
-        child: const Text('Pirates'),
+        child: const Text('X'),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
